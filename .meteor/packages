@@ -5,6 +5,9 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
 insecure
-vazco:universe-modules
+universe:modules
+universe:react-bootstrap
+react
+kadira:react-layout
+meteorhacks:flow-router

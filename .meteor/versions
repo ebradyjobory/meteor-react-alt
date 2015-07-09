@@ -1,5 +1,6 @@
-autopublish@1.0.3
 autoupdate@1.2.1
+babel-compiler@5.4.7
+babel-runtime@0.1.0
 base64@1.0.3
 binary-heap@1.0.3
 blaze@2.1.2
@@ -7,6 +8,8 @@ blaze-tools@1.0.3
 boilerplate-generator@1.0.3
 callback-hook@1.0.3
 check@1.0.5
+coffeescript@1.0.6
+cosmos:browserify@0.4.0
 ddp@1.1.0
 deps@1.0.7
 ejson@1.0.6
@@ -19,11 +22,14 @@ id-map@1.0.3
 insecure@1.0.3
 jquery@1.11.3_2
 json@1.0.3
+jsx@0.1.0
+kadira:react-layout@1.0.1
 launch-screen@1.0.2
 livedata@1.0.13
 logging@1.0.7
 meteor@1.1.6
 meteor-platform@1.2.2
+meteorhacks:flow-router@1.18.0
 minifiers@1.1.5
 minimongo@1.0.8
 mobile-status-bar@1.0.3
@@ -31,6 +37,11 @@ mongo@1.1.0
 observe-sequence@1.0.6
 ordered-dict@1.0.3
 random@1.0.3
+react@0.1.1
+react-meteor-data@0.1.0
+react-runtime@0.13.3_2
+react-runtime-dev@0.13.3_2
+react-runtime-prod@0.13.3_1
 reactive-dict@1.1.0
 reactive-var@1.0.5
 reload@1.1.3
@@ -43,8 +54,8 @@ templating@1.1.1
 tracker@1.0.7
 ui@1.0.6
 underscore@1.0.3
-unofficial:babel-compiler@5.4.7
+universe:modules@0.2.0
+universe:react-bootstrap@0.23.7
 url@1.0.4
-vazco:universe-modules@0.0.3
 webapp@1.2.0
 webapp-hashing@1.0.3
