@@ -11,3 +11,5 @@ universe:react-bootstrap
 react
 kadira:react-layout
 meteorhacks:flow-router
+
+conielo:meteor-alt-flux
