@@ -1,4 +1,6 @@
 import {Panel, ListGroup} from 'bootstrap';
+import AppStore from 'stores/AppStore';
+import AppActions from 'actions/AppActions';
 
 // you can also import from the same directory
 import Task from './task';
@@ -13,20 +15,14 @@ export default React.createClass({
     },
     handleSubmit(event) {
         event.preventDefault();
-
         // grab input value
         let title = event.target.task.value;
 
         if (!title) {
-            // empty input
-            return;
+          // empty input
+          return;
         }
-
-        Tasks.insert({
-            title,
-            createdAt: new Date()
-        });
-
+        Meteor.call('addTask', title);
         event.target.reset(); //clean the form
     },
     render() {

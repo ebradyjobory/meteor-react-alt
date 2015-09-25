@@ -5,14 +5,15 @@ class MapsStore {
 
     /** STATES **/
     this.counter = 0;
+    this.db = [];
 
     /** EVENTS LISTENERS **/
     this.bindListeners({
-      handleIncrement: AppActions.INCREMENT
+      handleIncrement: AppActions.UPDATE_DATA
     });
   }
 
-  handleIncrement() {
+  handleIncrement(data) {
     this.counter++;
   }
 

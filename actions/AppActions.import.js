@@ -1,6 +1,6 @@
 class AppActions {
-  increment() {
-    this.dispatch();
+  updateData(title) {
+    //this.dispatch();
   }
 
 }
